@@ -3,8 +3,8 @@ import "./About.scss";
 const About = () => {
   return (
     <div>
-      <div class="about-bgImg-container">
-        <div class="about__bio-image">
+      <div className="about-bgImg-container">
+        <div className="about__bio-image">
           <h2>BIO</h2>
           <p>
             Wednesday Addams is a fictional character from the Addams Family
@@ -21,10 +21,10 @@ const About = () => {
         </div>
       </div>
 
-      <main class="about">
-        <div class="about__container">
-          <div class="about__job">
-            <h2 class="text-secondary">2020 - 2021</h2>
+      <main className="about">
+        <div className="about__container">
+          <div className="about__job">
+            <h2 className="text-secondary">2020 - 2021</h2>
             <h3>CLARUSWAY</h3>
             <h6>Instructor & Full Stack Developer</h6>
             <p>
@@ -33,8 +33,8 @@ const About = () => {
               adipisci.
             </p>
           </div>
-          <div class="about__job">
-            <h2 class="text-secondary">2019 - 2020</h2>
+          <div className="about__job">
+            <h2 className="text-secondary">2019 - 2020</h2>
             <h3>Google</h3>
             <h6>Front End Developer</h6>
             <p>
@@ -43,8 +43,8 @@ const About = () => {
               adipisci.
             </p>
           </div>
-          <div class="about__job">
-            <h2 class="text-secondary">2017 - 2019</h2>
+          <div className="about__job">
+            <h2 className="text-secondary">2017 - 2019</h2>
             <h3>The Best Websites Co.</h3>
             <h6>Front End Developer</h6>
             <p>
@@ -56,22 +56,22 @@ const About = () => {
         </div>
       </main>
 
-      <footer class="vertical">
-        <div class="social-icons">
+      <footer className="vertical">
+        <div className="social-icons">
           <a href="#twitter">
-            <i class="fab fa-twitter fa-2x"></i>
+            <i className="fab fa-twitter fa-2x"></i>
           </a>
           <a href="#facebook">
-            <i class="fab fa-facebook fa-2x"></i>
+            <i className="fab fa-facebook fa-2x"></i>
           </a>
           <a href="#instagram">
-            <i class="fab fa-instagram fa-2x"></i>
+            <i className="fab fa-instagram fa-2x"></i>
           </a>
           <a href="#github">
-            <i class="fab fa-github fa-2x"></i>
+            <i className="fab fa-github fa-2x"></i>
           </a>
         </div>
-        <div class="copyright">&copy; Copyright 2023</div>
+        <div className="copyright">&copy; Copyright 2023</div>
       </footer>
     </div>
   );
